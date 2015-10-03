@@ -5,21 +5,38 @@
     $(document).ready(function () {
         /* ----- Begin writing your JavaScript here ------*/
 
-        $('.readmore').click(function () {
-            $('#show-this-on-click').slideDown(450);
-            $('.readmore').hide(500);
-            $('.readless').show(500);
+        $('.readmore1 a').click(function (e) {
+            e.preventDefault();
+            $('#show-this-on-click').slideDown();
+            $('.readmore1').hide();
+            $('.readless1').show();
         });
 
-        $('.readless').click(function () {
-            $('#show-this-on-click').slideUp(450);
-            $('.readless').hide(1000);
-            $('.readmore').show(1000);
+        $('.readless1 a').click(function (e) {
+            e.preventDefault();
+            $('#show-this-on-click').slideUp();
+            $('.readless1').hide();
+            $('.readmore1').show();
         });
 
-        $('.learnmore').click(function () {
-            $('span').slideDown(1000);
-            $('.learnmore').hide(1000);
+        $('.readmore2 a').click(function (e) {
+            e.preventDefault();
+            $('#show-this-on-click').slideDown();
+            $('.readmore2').hide();
+            $('.readless2').show();
+        });
+
+        $('.readless2 a').click(function (e) {
+            e.preventDefault();
+            $('#show-this-on-click').slideUp();
+            $('.readless2').hide();
+            $('.readmore2').show();
+        });
+
+        $('.learnmore').click(function (e) {
+            e.preventDefault();
+            $('span').slideDown();
+            $('.learnmore').hide();
         });
 
         /* ----- Finish writing your JavaScript here -----*/

@@ -10,7 +10,7 @@ The team from Relaxr is back...again! They want their page to be more interactiv
 
 Student: Rachel Williams
 
-Project URL: ____________________________________
+Project URL: https://github.com/rachelleahwilliams/ga-fewd-19-assignment-4.git
 
 | Technical Requirements | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | --- | --- | --- | --- |
